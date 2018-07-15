@@ -1,0 +1,67 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f2f2f2;
+}
+.main{
+  margin: 15px auto;
+  text-align: center;
+  width: 900px;
+}
+h1{
+  font-family: "Myriad Pro",Arial,Helvetica,sans-serif;
+  font-size: 42px;
+  font-weight: normal;
+  padding: 35px
+}
+h2{
+  font-family: "Myriad Pro",Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  position: relative;
+  top: -19px;
+}
+.window{
+  width: 900px;
+  overflow: hidden;
+}
+.images{
+  display: flex;
+  align-items: flex-start;
+  transition: all .5s;
+}
+.images > img{
+  vertical-align: top;
+}
+
+.active{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.buttons{
+  margin-top: 5px;
+}
+
+.buttons > button{
+  font-family: "Myriad Pro",Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  width: 30px;
+}
+.buttons>button:hover{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
